@@ -8,7 +8,7 @@ public abstract class Customer {
 
     public Customer(String name) {
         this.name = name;
-        ArrayList<String> paymentHistory = new ArrayList<>();
+        this.paymentHistory = new ArrayList<>();
     }
     public abstract void displayCustomerInfo();
     public void makePayment(PaymentStrategy paymentStrategy, double amount) {
