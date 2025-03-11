@@ -1,4 +1,5 @@
 package payment;
 
-public class RegularCustomer {
+public class RegularCustomer extends Customer {
+    
 }

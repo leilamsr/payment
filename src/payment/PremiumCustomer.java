@@ -1,4 +1,4 @@
 package payment;
 
-public class PremiumCustomer {
+public class PremiumCustomer extends Customer {
 }
